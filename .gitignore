@@ -1,0 +1,41 @@
+# ===== FRONTEND (React) =====
+frontend/node_modules/
+frontend/build/
+frontend/*.env
+frontend/*.next/
+frontend/*.cache/
+
+# ===== BACKEND (Spring Boot) =====
+backend/target/
+backend/.idea/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/logs/
+backend/*.log
+
+# ===== ML (Python / YOLO) =====
+ml/__pycache__/
+ml/.venv/
+ml/env/
+ml/*.pt
+ml/*.pth
+ml/*.h5
+ml/*.onnx
+ml/*.pkl
+ml/*.log
+ml/*.zip
+ml/.env
+
+# ===== GENERAL =====
+*.log
+*.tmp
+*.zip
+*.tar
+*.rar
+*.7z
+*.DS_Store
+Thumbs.db
+.env
+*.mp4
+
